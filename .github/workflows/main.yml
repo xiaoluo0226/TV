@@ -1,4 +1,4 @@
-name:mytvHD
+name: mytvHD
 
 on:
   schedule:

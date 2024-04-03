@@ -222,7 +222,7 @@ for result in results:
         channels.append((channel_name, channel_url))
 
 import eventlet
-eventlet.monkey_patch()
+eventlet.monkey_patch(thread=False)
 
 # 线程安全的队列，用于存储下载任务
 task_queue = Queue()
